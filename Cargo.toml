@@ -1,9 +1,9 @@
 [package]
-name = "dw"
+name = "dw-rs"
 version = "0.1.0"
 edition = "2024"
 authors = ["Amirhossein Ghanipour <d3v1ll3n@gmail.com>"]
-description = "A blazingly fast download accelerator, written in Rust."
+description = "A blazingly fast, parallel download accelerator written in Rust."
 license = "GPL-3.0"
 repository = "https://github.com/amirhosseinghanipour/dw"
 homepage = "https://github.com/amirhosseinghanipour/dw"
@@ -14,8 +14,6 @@ categories = ["command-line-utilities"]
 [[bin]]
 name = "dw"
 path = "src/main.rs"
-
-
 
 [dependencies]
 tokio = { version = "1.0", features = ["full"] }
